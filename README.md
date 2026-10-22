@@ -1,5 +1,6 @@
 # $Meta-I$
 
+These scripts implement metacognitive measures
 #### Background
 Meta-I is a measure of metacognitive sensitivity as proposed by Dayan (2023). It is the mutual information between accuracy of the choice and the confidence in that choice expressed in bits.
 Metacognitive sensitivity is tied to the ability to reflect accuracy in the confidence rating about that choice, so ideally confidence should be higher for correct and lower for incorrect choices.
@@ -15,4 +16,11 @@ Dayan additionally proposed two types of metacognitive efficiency:
 
  - **Meta-Ir1** = $meta-I / meta-I(d′)$: mutual information is normalized by the mutual information a naive Baysian observer would produce idealy given a certain d' (type 1 SDT perceptual sensitivity).
 
- - **Meta-Ir2** = $meta-I / H₂(r)$: mutual information is normalized by $H_2(r)$ the total uncertainty there is about accuracy in the first place (theoretical upper bound of meta-I).
+ - **Meta-Ir2** = $meta-I / H₂(r)$: mutual information is normalized by $H_2(r)$ the total uncertainty there is about accuracy in the first place (theoretical upper bound of meta-I).  
+<br>
+<br>
+
+The measures implemented are based on:
+> Dayan, P. (2023). Metacognitive Information Theory.  
+> Open Mind: Discoveries in Cognitive Science.  
+> https://doi.org/10.1162/opmi_a_00091
